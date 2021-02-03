@@ -35,6 +35,8 @@ Citation:
 * for model with stroke_loss, you should download [stroke_model](https://drive.google.com/file/d/16gSERA3TbPVFyCvKGtNKtJrQaOsG8vmO/view?usp=sharing) and specify model root in
   **./models/pix2pixHD_model** for **net_c.load_state_dict**
 * you can modify **options/base_option** to specify **--dataroot**, then run train.py or test.py
+
+
 ## Dataset
 
 - Gray line-drawings for charcol_style from GooleDrive
