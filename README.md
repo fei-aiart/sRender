@@ -46,7 +46,7 @@ Citation:
   - [CelebAmaskHQ](https://drive.google.com/file/d/1euiF1197sOEa6_dM6qE4tPMt0V42Vn-6/view?usp=sharing)
   - [FFHQ](https://drive.google.com/file/d/1uJQ5JGttXLfwmpH5LH0yH3bgs2oT7kTa/view?usp=sharing)  
 
-##Pretrained modelｓ
+## Pretrained models
 
 - charcoal_style from GooleDrive
   - [sRender w/o Lstr](https://drive.google.com/file/d/1mwGiFpXfMlcUw-ksfsyVhUSKQWQJGC6p/view?usp=sharing)
@@ -56,7 +56,7 @@ Citation:
   - [sRender w/o Lstr](https://drive.google.com/file/d/1JdVhJDVCcFQ1jtNfNy-Q05UL4IVqkqw3/view?usp=sharing)
   - [sRender](https://drive.google.com/file/d/1PdSWrr4W60daA2xrH63kr8925gP_vtdA/view?usp=sharing)  
 
-##Results
+## Results
 
 * Our synthesis result for **croquis** and **charcoal** style can be downloaded from 
   [Goole Drive](https://drive.google.com/drive/folders/1rDEe1GhBuoPUKDlj6kflfG1FTR6Xhu4u?usp=sharing)
