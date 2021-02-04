@@ -52,11 +52,11 @@ Citation:
 
 - charcoal_style from GooleDrive
   - [sRender w/o Lstr](https://drive.google.com/file/d/1mwGiFpXfMlcUw-ksfsyVhUSKQWQJGC6p/view?usp=sharing)
-  - [sRender](https://drive.google.com/file/d/1_A1rrbDILin6Cby1mD1SxIFAGRrUL4xV/view?usp=sharing)  
+  - [sRender](https://drive.google.com/file/d/1jwxvZZAJ-0gr_XJX3i3rBNQYqh8FCRCI/view?usp=sharing)  
 - croquis_style from GooleDrive
   - [sRenderPix2Pix](https://drive.google.com/file/d/1GIRcc8q-plIXKxSDEug4UMXacB35w0G5/view?usp=sharing)
   - [sRender w/o Lstr](https://drive.google.com/file/d/1JdVhJDVCcFQ1jtNfNy-Q05UL4IVqkqw3/view?usp=sharing)
-  - [sRender](https://drive.google.com/file/d/1PdSWrr4W60daA2xrH63kr8925gP_vtdA/view?usp=sharing)  
+  - [sRender](https://drive.google.com/file/d/1AKyX1u7RieCwP8b8WEUOzkXufLgRotr0/view?usp=sharing)  
 
 ## Results
 
