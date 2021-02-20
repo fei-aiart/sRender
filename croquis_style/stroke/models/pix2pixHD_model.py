@@ -27,10 +27,10 @@ class Pix2PixHDModel(BaseModel):
         return 'Pix2PixHDModel'
 
     def init_loss_filter(self, use_gan_feat_loss, use_vgg_loss, use_loss_style):
-        flags = (True, use_gan_feat_loss, use_vgg_loss, use_loss_style, True, True, True, True)
+        flags = (True, use_gan_feat_loss, use_vgg_loss, use_loss_style, True, True, True)
 
-        def loss_filter(g_gan, g_gan_feat, g_vgg, g_style, d_real, d_fake, l1, lossc):
-            return [l for (l, f) in zip((g_gan, g_gan_feat, g_vgg, g_style, d_real, d_fake, l1, lossc), flags) if f]
+        def loss_filter(g_gan, g_gan_feat, g_vgg, g_style, d_real, d_fake, lossc):
+            return [l for (l, f) in zip((g_gan, g_gan_feat, g_vgg, g_style, d_real, d_fake, lossc), flags) if f]
 
         return loss_filter
 
@@ -69,7 +69,7 @@ class Pix2PixHDModel(BaseModel):
                                           opt.n_downsample_E, norm=opt.norm, gpu_ids=self.gpu_ids)
 
         self.net_C = DenseNet(growthRate=6, depth=10, reduction=0.5, bottleneck=True, nClasses=7)
-        self.net_C.load_state_dict(torch.load("/home/meimei/mayme/data/stroke7_result/checkpoints/net_C_ins180.pth", map_location='cuda:0'))
+        self.net_C.load_state_dict(torch.load("/data/meimei/code/storke_class7/checkpoints/net_C_ins180.pth", map_location='cuda:1'))
         # self.net_C.load_state_dict(torch.load("/data/mayme/dataset/result/checkpoints/net_C_ins620.pth"))
         self.net_C.cuda()
 
@@ -104,7 +104,7 @@ class Pix2PixHDModel(BaseModel):
                 self.criterionStyle = networks.StyleLoss(self.gpu_ids)
 
             # Names so we can breakout loss
-            self.loss_names = self.loss_filter('G_GAN', 'G_GAN_Feat', 'G_VGG', 'G_Style', 'D_real', 'D_fake', 'loss_L1', 'loss_C')
+            self.loss_names = self.loss_filter('G_GAN', 'G_GAN_Feat', 'G_VGG', 'G_Style', 'D_real', 'D_fake', 'loss_C')
 
             # initialize optimizers
             # optimizer G
@@ -239,10 +239,9 @@ class Pix2PixHDModel(BaseModel):
         if not self.opt.no_style_loss:
             loss_G_Style = self.criterionStyle(fake_image, real_image) * 1e5 ###style_loss
 
-        loss_L1 = self.criterionFeat(fake_image, real_image) * self.opt.lambda_feat
         # Only return the fake_B image if necessary to save BW
         return [
-            self.loss_filter(loss_G_GAN, loss_G_GAN_Feat, loss_G_VGG, loss_G_Style, loss_D_real, loss_D_fake, loss_L1,loss_C),
+            self.loss_filter(loss_G_GAN, loss_G_GAN_Feat, loss_G_VGG, loss_G_Style, loss_D_real, loss_D_fake, loss_C),
             None if not infer else fake_image]
 
     def inference(self, label, inst, image=None):
