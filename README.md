@@ -49,7 +49,7 @@ Citation:
 
 - Gray line-drawings for charcol_style from GooleDrive
   - [charcoal](https://drive.google.com/file/d/18MAVm-u0l4Rfh4Ct6bZRG1cNbKwQMgMt/view?usp=sharing)
-  - [oil paintings]
+  - [oil paintings](https://drive.google.com/file/d/1zEtwX3OO2L4lv0Nr8y2QnCe7h8vLQ27H/view?usp=sharing)
   - [CelebAmaskHQ](https://drive.google.com/file/d/16pOkZiaBrot9EeLvxBIqm_UTuI2GSjpA/view?usp=sharing)
   - [FFHQ](https://drive.google.com/file/d/1mC0Vzf6TLD-77vtkzmfmVf3ZZXRlyOVb/view?usp=sharing)  
 - Binary line-drawings for croquis_style from GooleDrive
@@ -66,14 +66,14 @@ Citation:
   - [sRenderPix2Pix](https://drive.google.com/file/d/1GIRcc8q-plIXKxSDEug4UMXacB35w0G5/view?usp=sharing)
   - [sRender w/o Lstr](https://drive.google.com/file/d/1JdVhJDVCcFQ1jtNfNy-Q05UL4IVqkqw3/view?usp=sharing)
   - [sRender](https://drive.google.com/file/d/1AKyX1u7RieCwP8b8WEUOzkXufLgRotr0/view?usp=sharing)  
-- charcoal_style from GooleDrive
-  - [sRender]
+- oil_painting_style from GooleDrive
+  - [sRender](https://drive.google.com/file/d/1x1xg-uRR7Xw9IfrxnGud1uoT3QAO0KVW/view?usp=sharing)
 ## Results
 
 * Our synthesis result for **croquis** and **charcoal** style can be downloaded from 
   [Goole Drive](https://drive.google.com/drive/folders/1rDEe1GhBuoPUKDlj6kflfG1FTR6Xhu4u?usp=sharing)
 * Our synthesis result for **oil painting** style can be downloaded from 
-  [Goole Drive]
+  [Goole Drive](https://drive.google.com/file/d/1KRfIimkSNpiOHMjS272jvQ_Mgv8yAHk4/view?usp=sharing)
 ## Acknowledgments
 
 * Our code is inspired by the [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD) repository.
