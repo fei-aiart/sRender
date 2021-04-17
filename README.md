@@ -18,7 +18,7 @@ Citation:
 (a)Sketches  ; (b)Generated Line-drawings ; (c)Synthesized Sketches
 ## Oil Painting Reconstruction
 
-![Reconstructed oil paintings]
+![Reconstructed oil paintings](/images/oil_painting_reconstruct.png)
 (a)Oilpaintings  ; (b)Generated Line-drawings ; (c)Synthesized Oilpaintings
 ## Sketch Generation (from photos)
 
@@ -27,7 +27,7 @@ Citation:
 (a)Photos ; (b)Generated Line-drawings ; (c)Synthesized Sketches
 ## Oil Painting Generation (from photos)
 
-![Generated oilpaintings]
+![Generated oilpaintings](/images/oil_painting_generation.png)
 (a)Photos ; (b)Generated Line-drawings ; (c)Synthesized Oilpaintings
 ## Comparison
 
