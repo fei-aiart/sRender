@@ -1,9 +1,9 @@
 # sRender
-We provide `Pytorch` implementation for sRender: rendering facial sketches 
+We provide `Pytorch` implementation for sRender: rendering facial sketches.
 
-Citation:
+Reference:
 
->Meimei Shang, **Fei Gao** *, Xiang Li, Jingjie Zhu, Lingna Dai. **Bridging Unpaired Facial Photos And Sketches By Line-drawings**. 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 6-11 June 2021, Toronto, Ontario, Canada. (Accepted)
+>Shang, Meimei, **Fei Gao** \*, Xiang Li, Jingjie Zhu, and Lingna Dai. "Bridging Unpaired Facial Photos And Sketches By Line-drawings." In *ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, pp. 2010-2014. IEEE, 6-11 June 2021.
 
 [[paper@arXiv]](https://arxiv.org/abs/2102.00635)   [[project@github]](http://aiart.live/sRender/)
 
@@ -62,6 +62,21 @@ Citation:
 
 * Our synthesis result for **croquis** and **charcoal** style can be downloaded from 
   [Goole Drive](https://drive.google.com/drive/folders/1rDEe1GhBuoPUKDlj6kflfG1FTR6Xhu4u?usp=sharing)
+### Citation
+
+`bib`
+
+```latex
+@inproceedings{shang2021bridging,
+  title={Bridging Unpaired Facial Photos And Sketches By Line-drawings},
+  author={Shang, Meimei and Gao, Fei and Li, Xiang and Zhu, Jingjie and Dai, Lingna},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2010--2014},
+  year={2021},
+  organization={IEEE}
+}
+```
+
 ## Acknowledgments
 
-* Our code is inspired by the [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD) repository.
+* Our code is inspired by the [AiSketcher](https://aiart.live/AiSketcher/) repository and the [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD) repository.
