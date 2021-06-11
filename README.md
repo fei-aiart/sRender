@@ -1,11 +1,11 @@
 # sRender
-We provide `Pytorch` implementation for sRender: rendering facial sketches.
+We provide `Pytorch` implementation for sRender (i.e. sketch render).
 
 Reference:
 
 >Shang, Meimei, **Fei Gao** \*, Xiang Li, Jingjie Zhu, and Lingna Dai. "Bridging Unpaired Facial Photos And Sketches By Line-drawings." In *ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, pp. 2010-2014. IEEE, 6-11 June 2021.
 
-[[paper@arXiv]](https://arxiv.org/abs/2102.00635)   [[project@github]](http://aiart.live/sRender/)
+[[paper@IEEE]](https://ieeexplore.ieee.org/document/9414380)   [[paper@arXiv]](https://arxiv.org/abs/2102.00635)   [[project@github]](http://aiart.live/sRender/)
 
 ## Pipeline
 
